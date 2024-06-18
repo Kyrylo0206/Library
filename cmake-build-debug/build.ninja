@@ -49,29 +49,8 @@ cmake_ninja_workdir = E$:/GitHub/Robota17.11.23lessons/Library/cmake-build-debug
 
 build cmake_object_order_depends_target_Library: phony || CMakeFiles/Library.dir
 
-build CMakeFiles/Library.dir/lib.cpp.obj: CXX_COMPILER__Library_unscanned_Debug E$:/GitHub/Robota17.11.23lessons/Library/lib.cpp || cmake_object_order_depends_target_Library
-  DEP_FILE = CMakeFiles\Library.dir\lib.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IE:/GitHub/Robota17.11.23lessons/Library/.
-  OBJECT_DIR = CMakeFiles\Library.dir
-  OBJECT_FILE_DIR = CMakeFiles\Library.dir
-
-build CMakeFiles/Library.dir/Encrypted.cpp.obj: CXX_COMPILER__Library_unscanned_Debug E$:/GitHub/Robota17.11.23lessons/Library/Encrypted.cpp || cmake_object_order_depends_target_Library
-  DEP_FILE = CMakeFiles\Library.dir\Encrypted.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IE:/GitHub/Robota17.11.23lessons/Library/.
-  OBJECT_DIR = CMakeFiles\Library.dir
-  OBJECT_FILE_DIR = CMakeFiles\Library.dir
-
-build CMakeFiles/Library.dir/Decrypted.cpp.obj: CXX_COMPILER__Library_unscanned_Debug E$:/GitHub/Robota17.11.23lessons/Library/Decrypted.cpp || cmake_object_order_depends_target_Library
-  DEP_FILE = CMakeFiles\Library.dir\Decrypted.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IE:/GitHub/Robota17.11.23lessons/Library/.
-  OBJECT_DIR = CMakeFiles\Library.dir
-  OBJECT_FILE_DIR = CMakeFiles\Library.dir
-
-build CMakeFiles/Library.dir/dll.cpp.obj: CXX_COMPILER__Library_unscanned_Debug E$:/GitHub/Robota17.11.23lessons/Library/dll.cpp || cmake_object_order_depends_target_Library
-  DEP_FILE = CMakeFiles\Library.dir\dll.cpp.obj.d
+build CMakeFiles/Library.dir/main.cpp.obj: CXX_COMPILER__Library_unscanned_Debug E$:/GitHub/Robota17.11.23lessons/Library/main.cpp || cmake_object_order_depends_target_Library
+  DEP_FILE = CMakeFiles\Library.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IE:/GitHub/Robota17.11.23lessons/Library/.
   OBJECT_DIR = CMakeFiles\Library.dir
@@ -85,7 +64,7 @@ build CMakeFiles/Library.dir/dll.cpp.obj: CXX_COMPILER__Library_unscanned_Debug 
 #############################################
 # Link the executable Library.exe
 
-build Library.exe: CXX_EXECUTABLE_LINKER__Library_Debug CMakeFiles/Library.dir/lib.cpp.obj CMakeFiles/Library.dir/Encrypted.cpp.obj CMakeFiles/Library.dir/Decrypted.cpp.obj CMakeFiles/Library.dir/dll.cpp.obj
+build Library.exe: CXX_EXECUTABLE_LINKER__Library_Debug CMakeFiles/Library.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Library.dir

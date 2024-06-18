@@ -1,0 +1,6 @@
+# ninja log v5
+17	2961	7404122223121855	CMakeFiles/Library.dir/dll.cpp.obj	8531d88e7413b778
+6	2968	7404122223172971	CMakeFiles/Library.dir/lib.cpp.obj	770331486361b35f
+2663	2849	7404150141603356	Library.exe	c8db2da0ca01ae0d
+35	540	7404464518132132	build.ninja	1d156f4b42087af8
+44	2662	7404150139765669	CMakeFiles/Library.dir/main.cpp.obj	80caa14df11a1532
